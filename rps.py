@@ -41,7 +41,7 @@ class RPS:
     def check_move(self, user_move: str, ai_move: str):
         # The game logic
         if user_move == ai_move:
-            print('It is a tie!')
+            print('It is a tie!!!!!!')
         elif user_move == 'rock' and ai_move == 'scissors':
             print('You win!')
         elif user_move == 'scissors' and ai_move == 'paper':
